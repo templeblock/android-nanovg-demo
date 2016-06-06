@@ -28,7 +28,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include <stdio.h>
 #include "nanovg.h"
 #include "nanovg_gl.h"
 #include "nanovg_gl_utils.h"
