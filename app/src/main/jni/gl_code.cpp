@@ -91,7 +91,7 @@ void renderFrame() {
     float by = sinf(-120.0f/180.0f*NVG_PI) * r;
     float hue = sinf(0.5 * 0.12f);
 
-    nvgTranslate(vg, 500,500);
+    nvgTranslate(vg, w/2, h/2);
 
     nvgBeginPath(vg);
     nvgMoveTo(vg, r,0);
